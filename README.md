@@ -2,6 +2,12 @@
 
 To complete the objective of this app, an interface was developed with Javascript and a backend with Node js.
 
+The frontend is a table with users with the possibility of editing and deleting them, also a button to create users.
+
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+
 Under the idea of ​​being able to create multiple emails and telephone numbers, the normalization of these tables was carried out with their respective relationships from one user to many emails and phones.
 
 ![Alt text](image.png)
@@ -38,6 +44,12 @@ The project follows an organized structure inspired by the MVC (Model-View-Contr
 ## API Reference
 
 #### Get all users
+
+```http
+  GET /user?userId={userId}
+```
+
+#### Get user
 
 ```http
   GET /users
